@@ -1,0 +1,16 @@
+  * {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+  }
+  
+  .head {
+      background-color: rgb(218, 82, 82);
+      display: flex;
+      justify-content: center;
+  }
+  
+  h1 {
+      color: rgb(255, 255, 255);
+      font-size: 35px;
+  }
