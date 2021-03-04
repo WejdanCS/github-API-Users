@@ -37,12 +37,10 @@ function createDomElements(isUser = false, container, user = {}) {
     </div>
          */
     const card = document.createElement('div');
-    card.setAttribute('class', 'card');
-    card.setAttribute('class', 'col');
+    card.setAttribute('class', 'card col-xs-12 col-sm-6 col-md-4 col-lg-3');
     //  --------img-----------
     const img = document.createElement('img');
     img.setAttribute('class', 'card-img-top');
-    img.setAttribute('style', 'width: 220px');
     card.appendChild(img);
     // --------Card body-----------
     const cardBody = document.createElement('div');
@@ -63,7 +61,6 @@ function createDomElements(isUser = false, container, user = {}) {
     // --------button -----------
     const buttonUrl = document.createElement('a');
     buttonUrl.setAttribute('class', 'btn btn-primary');
-    buttonUrl.setAttribute('style', 'width: 200px;');
     buttonUrl.innerHTML = 'Go Github Account';
     cardBody.appendChild(buttonUrl);
     card.appendChild(cardBody);
